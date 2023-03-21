@@ -1,0 +1,312 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+
+    font-family: 'Hanken Grotesk', sans-serif;
+
+}
+
+html{
+
+    text-align: center;
+    font-size: 18px;
+    
+
+}
+
+.header{
+
+    height: 745px;
+    width: 100%;
+
+}
+
+.container{
+
+    padding-top: 180px;
+    height: 745px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: hsl(0, 0%, 100%);
+    
+    
+
+}
+
+.circle{
+
+    
+    
+    margin: 29px;
+    padding: 30px 0px;
+    border-radius: 50%;
+    background: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    
+
+}
+
+.summary button {
+
+    padding: 12px 90px;
+    border-radius: 25px;
+    margin-top: 30px;
+    margin-left: 30px;
+    background-color: hsl(224, 30%, 27%);
+   
+
+}
+
+.result{
+    font-family: 'Hanken Grotesk', sans-serif;
+    width: 350px;
+    height: 480px;
+    padding-right: 50px;
+    background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    margin-bottom: 0px;
+    border-radius: 30px;
+    padding-left: 50px;
+    padding-top: 20px;
+   color: #fff;
+   padding-bottom: 20px;
+   box-shadow: 10px 10px 10px rgba(0,0,0,0.3);
+   
+}
+
+.result p{
+
+    font-size: 15px;
+
+}
+
+.summary{
+
+    margin-top: 0px;
+    background: #fff;
+    height: 480px;
+    padding-right: 30px;
+    border-radius: 20px 0px 20px 0px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.3);
+    padding-left: 12px;
+    width: 350px;
+
+}
+
+.reaction{
+
+    display: flex;
+    justify-content: center;
+    padding: 35px;
+    background: hsl(0, 100%, 67%, 20%);
+    color: hsl(0, 100%, 67%);
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius: 15px;
+    padding: 15px 0;
+    padding-left: 18px;
+    padding-right: 15px;
+    
+}
+
+.memory{
+
+    display: flex;
+    justify-content: center;
+    padding: 35px;
+    background: hsl(39, 100%, 56%, 20%);
+    color: hsl(39, 100%, 56%);
+    margin-left: 30px;
+    margin-top: 10px;
+    border-radius: 15px;
+    padding: 15px 0;
+    padding-left: 18px;
+    padding-right: 15px;
+
+}
+
+.verbal{
+
+    display: flex;
+    justify-content: center;
+    padding: 35px;
+    background: hsl(166, 100%, 37%, 20%);
+    color: hsl(166, 100%, 37%);
+    margin-left: 30px;
+    margin-top: 10px;
+    border-radius: 15px;
+    padding: 15px 0;
+    padding-left: 18px;
+    padding-right: 15px;
+
+}
+
+.visual{
+
+    display: flex;
+    justify-content: center;
+    padding: 35px;
+    background: hsl(234, 85%, 45%, 20%);
+    color:hsl(234, 85%, 45%) ;
+    margin-left: 30px;
+    margin-top: 10px;
+    border-radius: 15px;
+    padding: 15px 0;
+    padding-left: 18px;
+    padding-right: 15px;
+
+}
+
+.summary img{
+
+    margin-right: 10px;
+
+}
+
+
+
+.container h1{
+
+    font-size: 25px;
+
+}
+
+.result h2{
+
+    font-size: 75px;
+
+
+}
+
+.result h1{
+
+    font-size: 30px;
+    color: #ded7d7;
+
+}
+
+.container{
+
+    padding: 130px;
+    margin: 0;
+    background: #fff;
+    
+}
+
+button{
+
+    color: #fff;
+    font-size: 20px;
+
+
+}
+
+.result{
+
+    font-family: 'Hanken Grotesk', sans-serif;
+
+}
+
+.result p{
+
+    margin-top: 20px;
+    color: #ded7d7;
+}
+
+.summary h2{
+
+    margin-right: 130px;
+
+}
+
+
+
+.f{
+
+    color: #928a8a;
+
+}
+
+.e{
+
+    color: #2f2a2a;
+
+}
+
+.a{
+
+    margin-right: 85px;
+
+}
+.b{
+
+    margin-right: 85px;
+
+}
+.c{
+
+    margin-right: 100px;
+
+}
+.d{
+
+    margin-right: 100px;
+
+}
+
+@media screen and (max-width:600px){
+    
+    .container{
+
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin-top: 25px;
+        padding-top: 100px;
+
+    }
+
+    .summary h2{
+
+        margin-left: 10px;
+        margin-top: 30PX;
+        color: #918c8c;
+
+
+    }
+
+    .result{
+        
+        border-radius: 0 0px 30px 30px;
+
+    }
+
+    .circle{
+
+        margin: 29px;
+        padding: 30px 50px;
+        background: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+        
+    }
+
+    .summary{
+
+        padding-bottom: 50px ;
+
+    }
+
+
+
+
+       
+
+       
+
+
+
+}
